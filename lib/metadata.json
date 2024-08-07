@@ -1,16 +1,21 @@
 {
-  "vaultName": "base",
-  "lastExport": 1718480168701,
+  "vaultName": "Альтаирн - Энциклопедия",
+  "lastExport": 1723044578723,
   "pluginVersion": "1.8.01",
-  "validBodyClasses": "publish css-settings-manager theme-dark show-ribbon check-color check-bg",
+  "validBodyClasses": "publish css-settings-manager theme-dark show-ribbon sizing-mini paper lig check-color check-bg",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
     "Божества/Божества.md",
-    "Политика/Города/Данитлер.md",
-    "Политика/Города/Кригсхолд.md",
-    "Политика/Города/Крисмарк.md",
-    "Политика/Города/Лоторд.md",
+    "Божества/Кодекс Руле.md",
+    "Для Игроков/Правила/Правила.md",
+    "Для Игроков/Правила/Черты.md",
+    "Для Игроков/Расы/Дикие люди.md",
+    "Политика/Города и Провинции/Данитлер.md",
+    "Политика/Города и Провинции/Кригсхолд.md",
+    "Политика/Города и Провинции/Крисмарк.md",
+    "Политика/Города и Провинции/Лоторд.md",
+    "Политика/Персонажи/Феон III.md",
     "Политика/Фракции/Малые Фракции/Архипелаг Керген.md",
     "Политика/Фракции/Малые Фракции/Варвары Мирунских гор.md",
     "Политика/Фракции/Малые Фракции/Виркала.md",
@@ -52,6 +57,11 @@
     "img/icons/tower-warning.svg",
     "img/icons/town-hall.svg",
     "img/icons/village.svg",
+    "img/maps/leaf/plugins/obsidian-leaflet-plugin/data.json",
+    "img/portraits/feonIII.jpg",
+    "img/portraits/ronove.jpg",
+    "img/portraits/wildman1.jpg",
+    "img/portraits/wildman2.jpg",
     "img/Altairn map.png",
     "img/Lotord.jpg",
     "Карта мира.md",
@@ -89,471 +99,447 @@
     "lib/media/3d6c1bdc4d87cde4de67.svg"
   ],
   "fileInfo": {
-    "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1718302868028,
-      "sourceSize": 23377,
-      "exportedPath": "lib/scripts/graph-wasm.wasm",
-      "dependencies": []
-    },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
     },
-    "lib/html/file-tree.html": {
-      "modifiedTime": 1718302868028,
-      "sourceSize": 972,
-      "exportedPath": "lib/html/file-tree.html",
-      "dependencies": []
-    },
-    "lib/scripts/webpage.js": {
-      "modifiedTime": 1718302868028,
-      "sourceSize": 47290,
-      "exportedPath": "lib/scripts/webpage.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-view.js": {
-      "modifiedTime": 1718302868028,
-      "sourceSize": 15519,
-      "exportedPath": "lib/scripts/graph-view.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1718302868028,
-      "sourceSize": 14021,
-      "exportedPath": "lib/scripts/graph-wasm.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1718302868028,
-      "sourceSize": 5179,
-      "exportedPath": "lib/scripts/graph-render-worker.js",
-      "dependencies": []
-    },
-    "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1718302868028,
-      "sourceSize": 29832,
-      "exportedPath": "lib/scripts/tinycolor.js",
-      "dependencies": []
-    },
-    "lib/scripts/pixi.js": {
-      "modifiedTime": 1718302868028,
-      "sourceSize": 449509,
-      "exportedPath": "lib/scripts/pixi.js",
-      "dependencies": []
-    },
-    "lib/scripts/minisearch.js": {
-      "modifiedTime": 1718302868028,
-      "sourceSize": 29422,
-      "exportedPath": "lib/scripts/minisearch.js",
-      "dependencies": []
-    },
-    "lib/media/favicon.png": {
-      "modifiedTime": 1718302868028,
-      "sourceSize": 1105,
-      "exportedPath": "lib/media/favicon.png",
-      "dependencies": []
-    },
-    "lib/scripts/graph-data.js": {
-      "modifiedTime": 1718302868028,
-      "sourceSize": 280,
-      "exportedPath": "lib/scripts/graph-data.js",
-      "dependencies": []
-    },
-    "lib/styles/obsidian.css": {
-      "modifiedTime": 1718302868028,
-      "sourceSize": 130183,
-      "exportedPath": "lib/styles/obsidian.css",
-      "dependencies": []
-    },
-    "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1718302868028,
-      "sourceSize": 236,
-      "exportedPath": "lib/styles/global-variable-styles.css",
-      "dependencies": []
-    },
-    "lib/styles/main-styles.css": {
-      "modifiedTime": 1718302868028,
-      "sourceSize": 23130,
-      "exportedPath": "lib/styles/main-styles.css",
-      "dependencies": []
-    },
     "Божества/Божества.md": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 5985,
       "exportedPath": "Божества/Божества.html",
       "dependencies": []
     },
-    "Политика/Города/Данитлер.md": {
-      "modifiedTime": 1718480168701,
-      "sourceSize": 1447,
-      "exportedPath": "Политика/Города/Данитлер.html",
+    "Божества/Кодекс Руле.md": {
+      "modifiedTime": 1723044578723,
+      "sourceSize": 8279,
+      "exportedPath": "Божества/Кодекс Руле.html",
       "dependencies": []
     },
-    "Политика/Города/Кригсхолд.md": {
-      "modifiedTime": 1718480168701,
+    "Для Игроков/Правила/Правила.md": {
+      "modifiedTime": 1723044578723,
+      "sourceSize": 6432,
+      "exportedPath": "Для Игроков/Правила/Правила.html",
+      "dependencies": []
+    },
+    "Для Игроков/Правила/Черты.md": {
+      "modifiedTime": 1723044578723,
+      "sourceSize": 12612,
+      "exportedPath": "Для Игроков/Правила/Черты.html",
+      "dependencies": []
+    },
+    "Для Игроков/Расы/Дикие люди.md": {
+      "modifiedTime": 1723044578723,
+      "sourceSize": 2147,
+      "exportedPath": "Для Игроков/Расы/Дикие люди.html",
+      "dependencies": []
+    },
+    "Политика/Города и Провинции/Данитлер.md": {
+      "modifiedTime": 1723044578723,
+      "sourceSize": 1611,
+      "exportedPath": "Политика/Города и Провинции/Данитлер.html",
+      "dependencies": []
+    },
+    "Политика/Города и Провинции/Кригсхолд.md": {
+      "modifiedTime": 1723044578723,
       "sourceSize": 1599,
-      "exportedPath": "Политика/Города/Кригсхолд.html",
+      "exportedPath": "Политика/Города и Провинции/Кригсхолд.html",
       "dependencies": []
     },
-    "Политика/Города/Крисмарк.md": {
-      "modifiedTime": 1718480168701,
-      "sourceSize": 2058,
-      "exportedPath": "Политика/Города/Крисмарк.html",
+    "Политика/Города и Провинции/Крисмарк.md": {
+      "modifiedTime": 1723044578723,
+      "sourceSize": 2059,
+      "exportedPath": "Политика/Города и Провинции/Крисмарк.html",
       "dependencies": []
     },
-    "Политика/Города/Лоторд.md": {
-      "modifiedTime": 1718480168701,
-      "sourceSize": 4082,
-      "exportedPath": "Политика/Города/Лоторд.html",
+    "Политика/Города и Провинции/Лоторд.md": {
+      "modifiedTime": 1723044578723,
+      "sourceSize": 5249,
+      "exportedPath": "Политика/Города и Провинции/Лоторд.html",
+      "dependencies": []
+    },
+    "Политика/Персонажи/Феон III.md": {
+      "modifiedTime": 1723044578723,
+      "sourceSize": 1009,
+      "exportedPath": "Политика/Персонажи/Феон III.html",
       "dependencies": []
     },
     "Политика/Фракции/Малые Фракции/Архипелаг Керген.md": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 838,
       "exportedPath": "Политика/Фракции/Малые Фракции/Архипелаг Керген.html",
       "dependencies": []
     },
     "Политика/Фракции/Малые Фракции/Варвары Мирунских гор.md": {
-      "modifiedTime": 1718480168701,
-      "sourceSize": 7997,
+      "modifiedTime": 1723044578723,
+      "sourceSize": 8657,
       "exportedPath": "Политика/Фракции/Малые Фракции/Варвары Мирунских гор.html",
       "dependencies": []
     },
     "Политика/Фракции/Малые Фракции/Виркала.md": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 4740,
       "exportedPath": "Политика/Фракции/Малые Фракции/Виркала.html",
       "dependencies": []
     },
     "Политика/Фракции/Малые Фракции/Грейбар.md": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 153,
       "exportedPath": "Политика/Фракции/Малые Фракции/Грейбар.html",
       "dependencies": []
     },
     "Политика/Фракции/Малые Фракции/Дель-ка-Дель.md": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 518,
       "exportedPath": "Политика/Фракции/Малые Фракции/Дель-ка-Дель.html",
       "dependencies": []
     },
     "Политика/Фракции/Малые Фракции/Дротмор.md": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 253,
       "exportedPath": "Политика/Фракции/Малые Фракции/Дротмор.html",
       "dependencies": []
     },
     "Политика/Фракции/Малые Фракции/Лесные племена Альтаирна.md": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 469,
       "exportedPath": "Политика/Фракции/Малые Фракции/Лесные племена Альтаирна.html",
       "dependencies": []
     },
     "Политика/Фракции/Малые Фракции/Озерное племя.md": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 784,
       "exportedPath": "Политика/Фракции/Малые Фракции/Озерное племя.html",
       "dependencies": []
     },
     "Политика/Фракции/Малые Фракции/Раккагар.md": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 523,
       "exportedPath": "Политика/Фракции/Малые Фракции/Раккагар.html",
       "dependencies": []
     },
     "Политика/Фракции/Альхарский Халифат.md": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 1020,
       "exportedPath": "Политика/Фракции/Альхарский Халифат.html",
       "dependencies": []
     },
     "Политика/Фракции/Визенвальд.md": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 912,
       "exportedPath": "Политика/Фракции/Визенвальд.html",
       "dependencies": []
     },
     "Политика/Фракции/Офийская Империя (Офия).md": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 1188,
       "exportedPath": "Политика/Фракции/Офийская Империя (Офия).html",
       "dependencies": []
     },
     "img/heraldic/Danitler.png": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 105467,
       "exportedPath": "img/heraldic/Danitler.png",
       "dependencies": []
     },
     "img/heraldic/Del-ka-Del.png": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 13921,
       "exportedPath": "img/heraldic/Del-ka-Del.png",
       "dependencies": []
     },
     "img/heraldic/Drotmour.png": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 13215,
       "exportedPath": "img/heraldic/Drotmour.png",
       "dependencies": []
     },
     "img/heraldic/Gewerhold.png": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 21793,
       "exportedPath": "img/heraldic/Gewerhold.png",
       "dependencies": []
     },
     "img/heraldic/Greenmour.png": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 20311,
       "exportedPath": "img/heraldic/Greenmour.png",
       "dependencies": []
     },
     "img/heraldic/Imperium.png": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 96635,
       "exportedPath": "img/heraldic/Imperium.png",
       "dependencies": []
     },
     "img/heraldic/Khrismark.png": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 19424,
       "exportedPath": "img/heraldic/Khrismark.png",
       "dependencies": []
     },
     "img/heraldic/Krigshold.png": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 10530,
       "exportedPath": "img/heraldic/Krigshold.png",
       "dependencies": []
     },
     "img/heraldic/Martilia.png": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 35178,
       "exportedPath": "img/heraldic/Martilia.png",
       "dependencies": []
     },
     "img/heraldic/Olika.png": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 21637,
       "exportedPath": "img/heraldic/Olika.png",
       "dependencies": []
     },
     "img/heraldic/Ronove.png": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 20495,
       "exportedPath": "img/heraldic/Ronove.png",
       "dependencies": []
     },
     "img/heraldic/Sultanat.png": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 114568,
       "exportedPath": "img/heraldic/Sultanat.png",
       "dependencies": []
     },
     "img/heraldic/Virkala.png": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 23829,
       "exportedPath": "img/heraldic/Virkala.png",
       "dependencies": []
     },
     "img/heraldic/Visenvald.png": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 19225,
       "exportedPath": "img/heraldic/Visenvald.png",
       "dependencies": []
     },
     "img/icons/battlefield.svg": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 3124,
       "exportedPath": "img/icons/battlefield.svg",
       "dependencies": []
     },
     "img/icons/campground.svg": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 458,
       "exportedPath": "img/icons/campground.svg",
       "dependencies": []
     },
     "img/icons/dungeon.svg": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 1961,
       "exportedPath": "img/icons/dungeon.svg",
       "dependencies": []
     },
     "img/icons/flag.svg": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 474,
       "exportedPath": "img/icons/flag.svg",
       "dependencies": []
     },
     "img/icons/flag (1).svg": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 717,
       "exportedPath": "img/icons/flag (1).svg",
       "dependencies": []
     },
     "img/icons/flag-thin.svg": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 1185,
       "exportedPath": "img/icons/flag-thin.svg",
       "dependencies": []
     },
     "img/icons/home.svg": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 599,
       "exportedPath": "img/icons/home.svg",
       "dependencies": []
     },
     "img/icons/mountain.svg": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 279,
       "exportedPath": "img/icons/mountain.svg",
       "dependencies": []
     },
     "img/icons/skull.svg": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 843,
       "exportedPath": "img/icons/skull.svg",
       "dependencies": []
     },
     "img/icons/suckered-tentacle.svg": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 1476,
       "exportedPath": "img/icons/suckered-tentacle.svg",
       "dependencies": []
     },
     "img/icons/tower.svg": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 299,
       "exportedPath": "img/icons/tower.svg",
       "dependencies": []
     },
     "img/icons/tower-check.svg": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 866,
       "exportedPath": "img/icons/tower-check.svg",
       "dependencies": []
     },
     "img/icons/tower-warning.svg": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 965,
       "exportedPath": "img/icons/tower-warning.svg",
       "dependencies": []
     },
     "img/icons/town-hall.svg": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 228,
       "exportedPath": "img/icons/town-hall.svg",
       "dependencies": []
     },
     "img/icons/village.svg": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 603,
       "exportedPath": "img/icons/village.svg",
       "dependencies": []
     },
+    "img/maps/leaf/plugins/obsidian-leaflet-plugin/data.json": {
+      "modifiedTime": 1723044578723,
+      "sourceSize": 8571,
+      "exportedPath": "img/maps/leaf/plugins/obsidian-leaflet-plugin/data.json",
+      "dependencies": []
+    },
+    "img/portraits/feonIII.jpg": {
+      "modifiedTime": 1723044578723,
+      "sourceSize": 52164,
+      "exportedPath": "img/portraits/feonIII.jpg",
+      "dependencies": []
+    },
+    "img/portraits/ronove.jpg": {
+      "modifiedTime": 1723044578723,
+      "sourceSize": 62514,
+      "exportedPath": "img/portraits/ronove.jpg",
+      "dependencies": []
+    },
+    "img/portraits/wildman1.jpg": {
+      "modifiedTime": 1723044578723,
+      "sourceSize": 47167,
+      "exportedPath": "img/portraits/wildman1.jpg",
+      "dependencies": []
+    },
+    "img/portraits/wildman2.jpg": {
+      "modifiedTime": 1723044578723,
+      "sourceSize": 85970,
+      "exportedPath": "img/portraits/wildman2.jpg",
+      "dependencies": []
+    },
     "img/Altairn map.png": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 10023523,
       "exportedPath": "img/Altairn map.png",
       "dependencies": []
     },
     "img/Lotord.jpg": {
-      "modifiedTime": 1718480168701,
+      "modifiedTime": 1723044578723,
       "sourceSize": 166306,
       "exportedPath": "img/Lotord.jpg",
       "dependencies": []
     },
     "Карта мира.md": {
-      "modifiedTime": 1718480168701,
-      "sourceSize": 1610,
+      "modifiedTime": 1723044578723,
+      "sourceSize": 1629,
       "exportedPath": "Карта мира.html",
       "dependencies": []
     }
