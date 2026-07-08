@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: ru-RU
-  baseUrl: crimson10910.github.io
+  baseUrl: crimson10910.github.io/Altairn-wiki
   ignorePatterns:
     - private
     - templates
